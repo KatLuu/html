@@ -1,0 +1,8 @@
+main{}
+.products{}
+.products h3{}
+.products h4{}
+.productImage{}
+@import url('mainleft.css');
+@import url('mainright.css');
+
