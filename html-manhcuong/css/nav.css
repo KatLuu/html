@@ -1,6 +1,39 @@
-nav{}
-.nav__menu{}
-.nav__menu ul{}
-.nav__menu ul li{}
-.nav__menu ul li a{}
-.nav__search{}
+nav {
+  background-color: black;
+}
+.nav__menu {
+  font-size: 13px;
+  width: 85%;
+}
+.nav__menu ul {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 0;
+  margin: 0;
+}
+.nav__menu ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* git */
+}
+.nav__menu ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  display: block;
+}
+.nav__menu ul li a:hover {
+  background-color: grey;
+}
+.nav__menu ul li.active a {
+  background-color: grey;
+}
+.nav__search {
+  color: white;
+  text-align: right;
+  width: 15%;
+}

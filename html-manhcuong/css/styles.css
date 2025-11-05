@@ -2,3 +2,13 @@
 @import url('main.css');
 @import url('nav.css');
 @import url('footer');
+body{
+    margin: 0px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}

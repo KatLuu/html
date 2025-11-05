@@ -1,6 +1,39 @@
- header{}
-    .header__top{}
-      .header__bottom{}
-      .header__bottom h2{}
-      .header__bottom ul{}
-      .header_bottom ul li{}
+header {
+}
+
+.header__top {
+  background-color: #3b84b0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 10px 5px;
+  /* padding: đẩy nội dung bên trong */
+}
+
+.header__bottom {
+  background-image: url("/html-manhcuong/images/steel__headerBottom.jpg");
+  background-size: cover;
+  color: white;
+  padding: 15px;
+}
+
+.header__bottom h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.header__bottom ul {
+  font-size: 14px;;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header__bottom ul li {
+  margin-bottom:10px;
+  list-style: none;
+}
+.header__bottom ul li:last-child{
+  margin-bottom: 0;
+}
