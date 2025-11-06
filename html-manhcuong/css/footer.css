@@ -1,27 +1,136 @@
-footer{}
-.footer__top{}
-.footerTop__aboutUs{}
-.footerTop__aboutUs h3{}
-.footerTop__aboutUs p{}
-.footerTopaboutUs__info{}
-.footerTopaboutUs__info li{}
-.footerTopaboutUs__info li span{}
-.footerTopaboutUs__socialNetwork{}
-.footerTopaboutUs__socialNetwork li{}
-.footerTopaboutUs__socialNetwork li a{}
-.footerTop__sitemaps{}
-.footerTop__sitemaps h3{}
-.footerTop__sitemaps ul{}
-.footerTop__sitemaps ul li{}
-.footerTop__sitemaps ul li a{}
-.footerTop__products{}
-.footerTop__products h3{}
-.footerTop__products ul{}
-.footerTop__products ul li{}
-.footerTop__products ul li a{}
-.footerTop__fanpage{}
-.footerTop__fanpage h3{}
-.footerTop__fanpageImage{}
-.footer__bottom{}
-.footerBottom__left{}
-.footerBottom__right{}
+footer {
+}
+.footer__top {
+  background-color: black;
+}
+.footerTop__aboutUs {
+  width: 40%;
+  margin-right: 20px;
+}
+.footerTop__aboutUs h3 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+.footerTop__aboutUs p {
+  color: white;
+}
+.footerTopaboutUs__info {
+}
+
+.footerTopaboutUs__info {
+  padding: 0;
+}
+.footerTopaboutUs__info li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* list-style-type: style dot; */
+}
+
+.footerTopaboutUs__info li span {
+  color: yellow;
+}
+.footerTopaboutUs__info li span:last-child {
+  color: white;
+  margin-left: 5px;
+}
+.footerTopaboutUs__socialNetwork {
+  padding: 0;
+}
+.footerTopaboutUs__socialNetwork li {
+  list-style: none;
+  margin-right: 5px;
+}
+.footerTopaboutUs__socialNetwork li a {
+  color: white;
+  text-decoration: none;
+}
+.footerTop__sitemaps {
+  width: 20%;
+  margin-right: 20px;
+}
+.footerTop__sitemaps h3 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+.footerTop__sitemaps ul {
+  padding: 0;
+}
+.footerTop__sitemaps ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+.footerTop__sitemaps ul li::before{
+    content: "\A";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: yellow;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footerTop__sitemaps ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footerTop__products {
+  width: 20%;
+  margin-right: 20px;
+}
+.footerTop__products h3 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+.footerTop__products ul {
+  padding: 0;
+}
+.footerTop__products ul li {
+  margin-top: 20px;
+  margin-bottom: px;
+  list-style: none;
+}
+
+.footerTop__products ul li::before{
+    content: "\A";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: yellow;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footerTop__products ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footerTop__fanpage {
+  width: 20%;
+}
+.footerTop__fanpage h3 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+.footerTop__fanpageImage {
+}
+.footerTop__fanpageImage img {
+  width: 100%;
+}
+
+.footer__bottom {
+}
+.footerBottom__left {
+  width: 80%;
+}
+.footerBottom__left span {
+  text-transform: uppercase;
+}
+.footerBottom__right {
+  text-transform: capitalize;
+  width: 20%;
+
+  text-align: right;
+}

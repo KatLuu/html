@@ -1,8 +1,39 @@
-main{}
-.products{}
-.products h3{}
-.products h4{}
-.productImage{}
-@import url('mainleft.css');
-@import url('mainright.css');
+@import url("mainleft.css");
+@import url("mainright.css");
+main {
+}
+.products {
+}
+.products a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.products h3 {
+  color: white;
+  margin:0;
+  padding:15px;
+  text-transform: uppercase
+  ;
+  text-align: center;
+}
+.products h4 {
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+ 
+  
+}
 
+.productImage {
+}
+.productImage img {
+  width: 100%;
+  
+  /* aspect-ratio: 1 / 1;   */
+}
+.mT10 {
+  margin-top: 10px;
+}
