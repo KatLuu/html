@@ -12,3 +12,14 @@ body{
 .row{
     display: flex;
 }
+/* @font-face {
+    font-family: 'ArialMT';
+  src: url('/html-manhcuong/font/arialmt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
+@font-face {
+    font-family: 'openSanextraBold';
+    src: url('/html-manhcuong/font/OpenSans_Condensed-ExtraBold.ttf');
+}

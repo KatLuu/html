@@ -30,6 +30,7 @@ aside {
   margin: 0;
 }
 .asideCategory__list ul li {
+  border-bottom: 1px solid grey;
 }
 .asideCategory__list ul li a {
   text-decoration: none;

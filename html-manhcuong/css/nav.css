@@ -16,7 +16,30 @@ nav {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
   /* git */
+}
+.nav__menu ul li .subMenu{
+position: absolute;
+display:none;
+/* width: 100%; */
+width: 150px;
+
+height:50px;
+
+}
+.nav__menu ul li .subMenu li{
+  background-color: grey;
+}
+.nav__menu ul li .subMenu li a{
+  
+}
+.nav__menu ul li:hover .subMenu{
+  display:block;
+}
+.nav__menu ul li .subMenu li a:hover{
+  background-color: #3b84b0;
+  color:white;
 }
 .nav__menu ul li a {
   text-decoration: none;
@@ -36,4 +59,29 @@ nav {
   color: white;
   text-align: right;
   width: 15%;
+}
+
+.nav__menu ul li .subMenu li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  /* git */
+}
+.nav__menu ul li .subMenu .subMenu2{
+position: absolute;
+display:none;
+width: 150px;
+left:150px;
+top:0;
+/* margin-left:10px; */
+}
+.nav__menu ul li .subMenu li .subMenu2 li{
+  background-color: grey;
+}
+.nav__menu ul li .subMenu li a{
+  
+}
+.nav__menu ul li .subMenu li:hover .subMenu2{
+  display:block;
 }
