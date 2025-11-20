@@ -1,20 +1,65 @@
+@import url("header.css");
+@import url("main.css");
+@import url("nav.css");
+@import url("footer.css");
 
-@import url('header.css');
-@import url('main.css');
-@import url('nav.css');
-@import url('footer.css');
-
-
-body{
-    margin: 0px;
+.animation {
+    position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: animation__contact;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  /* animation-direction:alternate;    
+   */
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
 }
-.container{
-    width: 1170px;
-    margin: auto;
+
+@keyframes animation__contact {
+  /* from {
+    background-color: grey;
+  }
+  to {
+    background-color: blue; 
+  }*/
+  0% {
+    background-color: blue;
+    left:0;
+    
+  }
+   25% {
+    background-color: blue;
+    left:100px;
+  }
+   50% {
+    background-color: blue;
+    left:0;
+  }
 }
 
-.row{
-    display: flex;
+.contact__side {
+  position: fixed;
+  right: 20px;
+  /* top:0; */
+}
+/* .contact__sideLink{
+    position:absolute;
+} */
+.contact__image img {
+  width: 50px;
+}
+body {
+  margin: 0px;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
 }
 /* @font-face {
     font-family: 'ArialMT';
@@ -24,6 +69,6 @@ body{
   font-display: swap;
 } */
 @font-face {
-    font-family: 'openSanextraBold';
-    src: url('/html-manhcuong/font/OpenSans_Condensed-ExtraBold.ttf');
+  font-family: "openSanextraBold";
+  src: url("/html-manhcuong/font/OpenSans_Condensed-ExtraBold.ttf");
 }

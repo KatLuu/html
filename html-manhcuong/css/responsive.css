@@ -104,4 +104,51 @@
 .footer__top h3{
     text-align: center;
 }
+nav{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1;
 }
+.nav__menu ul{
+  display:block;
+} 
+nav .row{
+display:none;
+
+} 
+ input#menu:checked ~ .row {   
+  
+display:block;
+}
+
+/* nav .container input{
+  display:block;
+} */
+nav .container label{
+  display:block;
+}
+
+}
+
+/* nav .container .row {
+  background-color: grey;
+  display: none;
+   position: fixed;
+  top:0;
+  left:0;
+  z-index: 2;
+} */
+/* .menu__mobile input{
+  display:none;
+} */
+/* .menu__mobile{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1;
+} */
+
+/* body:has(#menu:checked) nav .container .row {
+  display: block;
+} */

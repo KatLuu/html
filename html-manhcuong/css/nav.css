@@ -1,5 +1,8 @@
 nav {
   background-color: black;
+  position: sticky;
+  top: 0;
+  display:block;
 }
 .nav__menu {
   font-size: 13px;
@@ -19,27 +22,26 @@ nav {
   position: relative;
   /* git */
 }
-.nav__menu ul li .subMenu{
-position: absolute;
-display:none;
-/* width: 100%; */
-width: 150px;
+.nav__menu ul li .subMenu {
+  position: absolute;
+  display: none;
+  /* width: 100%; */
+  width: 150px;
 
-height:50px;
-
+  height: 50px;
 }
-.nav__menu ul li .subMenu li{
+.nav__menu ul li .subMenu li {
   background-color: grey;
 }
-.nav__menu ul li .subMenu li a{
-  
+.nav__menu ul li .subMenu li a {
 }
-.nav__menu ul li:hover .subMenu{
-  display:block;
+.nav__menu ul li:hover .subMenu {
+  display: block;
 }
-.nav__menu ul li .subMenu li a:hover{
+.nav__menu ul li .subMenu li a:hover {
   background-color: #3b84b0;
-  color:white;
+  color: white;
+  transition: 0.75s;
 }
 .nav__menu ul li a {
   text-decoration: none;
@@ -51,6 +53,7 @@ height:50px;
 }
 .nav__menu ul li a:hover {
   background-color: grey;
+  transition: 0.75s;
 }
 .nav__menu ul li.active a {
   background-color: grey;
@@ -68,20 +71,25 @@ height:50px;
   position: relative;
   /* git */
 }
-.nav__menu ul li .subMenu .subMenu2{
-position: absolute;
-display:none;
-width: 150px;
-left:150px;
-top:0;
-/* margin-left:10px; */
+.nav__menu ul li .subMenu .subMenu2 {
+  position: absolute;
+  display: none;
+  width: 150px;
+  left: 150px;
+  top: 0;
+  /* margin-left:10px; */
 }
-.nav__menu ul li .subMenu li .subMenu2 li{
+.nav__menu ul li .subMenu li .subMenu2 li {
   background-color: grey;
 }
-.nav__menu ul li .subMenu li a{
-  
+.nav__menu ul li .subMenu li a {
 }
-.nav__menu ul li .subMenu li:hover .subMenu2{
-  display:block;
+.nav__menu ul li .subMenu li:hover .subMenu2 {
+  display: block;
+}
+nav .container input#menu{
+  display:none;
+}
+nav .container label{
+  display:none;
 }
