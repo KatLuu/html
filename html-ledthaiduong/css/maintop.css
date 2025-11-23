@@ -1,0 +1,36 @@
+.main__top{}
+.slider{
+    margin-bottom: 15px;
+}
+.slider img{
+    width: 100%;
+}
+.info{}
+.info__service{
+    width: 100%;
+}
+.info__service a{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.infoService__icon{}
+.infoService__icon img{
+/* width: 100%; */
+  height: 50px; /* set the height you want */
+  object-fit: cover; 
+  object-position: center;
+  display: block;
+}
+.info__service a h3{
+   
+}
+.infoService__content{
+     text-transform:none!important;
+    font-style: italic;
+}

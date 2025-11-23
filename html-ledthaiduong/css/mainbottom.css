@@ -1,0 +1,82 @@
+.main__bottom{}
+.main__left{
+    width: 20%;
+}
+aside{
+
+}
+.promotion{
+    position: relative;
+}
+.promotion a{}
+.promotion__img{}
+.promotion__img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.promotion__icon{
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+.promotion__icon img{
+    
+}
+.promotion__bg{
+    background-color: grey;
+    height:60px;
+    position:absolute;
+    /* bottom:20px; */
+    bottom:0;
+    width: 100%;
+    opacity:0.5;
+}
+.promotion__content{
+    position: absolute;
+    bottom:0px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.best__seller{}
+.bestSeller__heading{}
+.bestSeller__product{}
+.product__content{}
+.product__img{}
+.product__img img{}
+.product__info{}
+.product__info h3{}
+.product__info button{}
+.news{}
+.news__heading{}
+.news__list{}
+.news__img{}
+.news__img img{}
+.news__content{}
+.news__content a{}
+
+.main__right{
+    width: 80%;
+}
+.mainRight__product{}
+.product__menu{}
+.product__menu ul{}
+.product__menu ul li{}
+.product__menu ul li a{}
+.product__icon{}
+.product__icon a{}
+.product__list{}
+.mainRightproduct__list{}
+.product{}
+.product__img{}
+.product__img img{}
+.product h2{}
+.product p{}
+.product a{}
+.mainRight__discount{}
+.discount__content{}
+.discount__icon{}
+.discount__icon a{}
+.discount__product{}

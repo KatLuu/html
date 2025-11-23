@@ -1,0 +1,82 @@
+nav{}
+.nav__productList{
+    position:relative;
+    
+    width: 30%;
+}
+.navProductlist__icon{}
+.navProductlist__heading{
+    text-transform: uppercase;
+}
+.navProductlist__dropdown{
+    position: absolute;
+    display:none;
+    background-color: white;
+width: 100%;
+}
+.navProductlist__dropdown ul{}
+.navProductlist__dropdown ul li{
+    list-style: none;
+}
+.navProductlist__dropdown ul li a{
+    text-transform: uppercase;
+    color:grey;
+    text-decoration: none;
+    display:block;
+    padding:15px;
+    
+    
+}
+.nav__menu{
+    width: 70%;
+}
+.nav__menu ul{
+    justify-content: space-evenly;
+    margin:0;
+}
+.nav__menu ul li{
+    list-style: none;
+}
+.nav__menu ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.nav__menu ul li a:hover{
+    color:greenyellow;
+}
+.d-flex{
+    display:flex;
+}
+/* .center{
+    align-items:center;
+} */
+.p10{
+    padding:10px;
+    justify-content: space-evenly;
+    background-color: greenyellow;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid;
+    border-color: greenyellow;
+    /* border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-width: 2px;
+    width: 100%;
+    border-image: initial !important; */
+}
+
+/* hover */
+.nav__productList:hover{
+color:white;
+cursor: pointer;
+
+}
+.nav__productList:hover .navProductlist__dropdown{
+display:block;
+}
+.align{
+    /* align-items: flex-end; */
+    align-items: center;
+}
